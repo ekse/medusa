@@ -24,7 +24,7 @@
    <locale language="English" country="UnitedStates"/>
   </property>
   <property name="dockOptions">
-   <set>QMainWindow::AllowNestedDocks|QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks|QMainWindow::ForceTabbedDocks|QMainWindow::VerticalTabs</set>
+   <set>QMainWindow::AllowNestedDocks|QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks|QMainWindow::ForceTabbedDocks</set>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -82,7 +82,7 @@
   <widget class="QStatusBar" name="statusbar"/>
   <widget class="QDockWidget" name="logDock">
    <property name="features">
-    <set>QDockWidget::DockWidgetMovable|QDockWidget::DockWidgetVerticalTitleBar</set>
+    <set>QDockWidget::DockWidgetMovable</set>
    </property>
    <property name="allowedAreas">
     <set>Qt::BottomDockWidgetArea</set>
@@ -116,7 +116,7 @@
     <string/>
    </property>
    <property name="features">
-    <set>QDockWidget::DockWidgetMovable|QDockWidget::DockWidgetVerticalTitleBar</set>
+    <set>QDockWidget::DockWidgetMovable</set>
    </property>
    <property name="allowedAreas">
     <set>Qt::LeftDockWidgetArea</set>
@@ -149,7 +149,7 @@
   </widget>
   <widget class="QDockWidget" name="memAreaDock">
    <property name="features">
-    <set>QDockWidget::DockWidgetMovable|QDockWidget::DockWidgetVerticalTitleBar</set>
+    <set>QDockWidget::DockWidgetMovable</set>
    </property>
    <property name="windowTitle">
     <string>Memory layout</string>
@@ -160,7 +160,7 @@
   </widget>
   <widget class="QDockWidget" name="BindingDock">
    <property name="features">
-    <set>QDockWidget::DockWidgetMovable|QDockWidget::DockWidgetVerticalTitleBar</set>
+    <set>QDockWidget::DockWidgetMovable</set>
    </property>
    <property name="windowTitle">
     <string>Binding</string>
